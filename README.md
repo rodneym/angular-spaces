@@ -6,7 +6,6 @@ angular-spaces allows module code to span multiple files.
 For exmple:
 
 in my_module.controller_a.js
-
 	namespace('myModule', [
 		'depend_on_foo',
 		'depend_on_bar'
@@ -16,7 +15,6 @@ in my_module.controller_a.js
 
 
 and, in my_module.controller_b.js
-
 	namespace('myModule', [
 		'depend_on_bar',
 		'depend_on_baz'
