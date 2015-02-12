@@ -1,11 +1,11 @@
 angular-spaces
 =====
 
-What?
+angular-spaces allows module code to span multiple files.
 
-it let's you code modules like this...
+For exmple:
 
-In file my_module.controller_a.js
+in my_module.controller_a.js
 
 	namespace('myModle', [
 		'depend_on_foo',
@@ -15,7 +15,7 @@ In file my_module.controller_a.js
 	.controller('controllerA', ...)
 
 
-and in file my_mOdule.controller_b.js
+and, in my_mOdule.controller_b.js
 
 	namespace('myModle', [
 		'depend_on_bar',
@@ -24,6 +24,6 @@ and in file my_mOdule.controller_b.js
 
 	.controller('controllerB', ...)
 
-etc...which you can't do with Angular's default module declaration syntax :-)
+etc...which you can't do with Angular's module declaration syntax :-)
 
 
