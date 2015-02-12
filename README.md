@@ -7,7 +7,7 @@ For exmple:
 
 in my_module.controller_a.js
 
-	namespace('myModle', [
+	namespace('myModule', [
 		'depend_on_foo',
 		'depend_on_bar'
 	])
@@ -15,9 +15,9 @@ in my_module.controller_a.js
 	.controller('controllerA', ...)
 
 
-and, in my_mOdule.controller_b.js
+and, in my_module.controller_b.js
 
-	namespace('myModle', [
+	namespace('myModule', [
 		'depend_on_bar',
 		'depend_on_baz'
 	])
