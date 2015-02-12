@@ -1,0 +1,27 @@
+{
+  "name": "angular-spaces",
+  "main": "angular-spaces.js",
+  "version": "0.0.1",
+  "authors": [
+    "Rodney Muras <muras.rodney@gmail.com>"
+  ],
+  "description": "Span AngularJS modules across multiple files.",
+  "moduleType": [
+    "angular"
+  ],
+  "keywords": [
+    "namespace",
+    "module",
+    "multifile",
+    "dependancy",
+    "require"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
